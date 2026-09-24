@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "record_id": "handover-0412",
+  "domain": "mission_kit",
+  "occurred_at": "2026-09-20T09:00:00+08:00",
+  "revision": 1,
+  "source": "跨境义诊-金边站点借出回执",
+  "handoff": {
+    "handover_id": "HO-0412",
+    "occasion": "loan",
+    "from_party": {"party_id": "hq-logistics", "site_id": "HQ-WAREHOUSE"},
+    "to_party": {"party_id": "team-alpha", "site_id": "SITE-PNH-01"},
+    "equipment": [
+      {
+        "equipment_id": "ultrasound-u100",
+        "serial_numbers": ["U100-A-0007", "U100-A-0008"],
+        "quantity": 2,
+        "calibration_due_at": "2026-12-01T00:00:00+00:00"
+      }
+    ],
+    "consumables": [
+      {
+        "consumable_id": "sterile-drape",
+        "lot_number": "LOT-DR-2026-09",
+        "quantity": 40,
+        "unit": "piece"
+      },
+      {
+        "consumable_id": "gloves-nitrile",
+        "lot_number": "LOT-GL-2026-11",
+        "quantity": 6,
+        "unit": "box"
+      }
+    ],
+    "handled_by": [
+      {"person_id": "P-1001", "name": "示例·交接员", "role": "logistics"},
+      {"person_id": "P-2002", "name": "示例·队长", "role": "clinician"}
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 99,
+  "record_id": "handover-future-0901",
+  "domain": "mission_kit",
+  "occurred_at": "2026-09-22T18:30:00+07:00",
+  "revision": 4,
+  "source": "未知现场终端-返程回执",
+  "handoff": {
+    "handover_id": "HO-FUTURE-0901",
+    "occasion": "return",
+    "calibration_semantics": "rolling-window-9000",
+    "from_party": {"party_id": "team-omega", "site_id": "SITE-FUTURE-09"},
+    "to_party": {"party_id": "hq-logistics", "site_id": "HQ-WAREHOUSE"},
+    "equipment": [
+      {
+        "equipment_id": "spectral-scanner-x9",
+        "serial_numbers": ["X9-Σ-0001"],
+        "quantity": 1,
+        "calibration_due_at": "2026-13-40T99:99:99+00:00",
+        "calibration_confidence": "auto-recalibrated"
+      }
+    ],
+    "consumables": [
+      {
+        "consumable_id": "nano-swab",
+        "lot_number": "LOT-FUTURE-1",
+        "quantity": 12,
+        "unit": "mega-packet"
+      }
+    ],
+    "handled_by": [
+      {"person_id": "P-9999", "name": "未知终端", "role": "auto"}
+    ]
+  }
+}
