@@ -1,8 +1,40 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "kind": "handoff",
   "record_id": "sample-013",
   "domain": "mission_kit",
   "occurred_at": "2026-09-20T09:00:00+08:00",
   "revision": 1,
-  "source": "业务样例"
+  "source": "业务样例",
+  "mission_id": "m-border-clinic-2026-09",
+  "site": "HQ",
+  "custodian": "高医生",
+  "equipments": [
+    {
+      "serial": "US-PROBE-07",
+      "model": "便携超声探头 A7",
+      "calibration_due": "2026-12-01T00:00:00+08:00"
+    },
+    {
+      "serial": "OXI-204",
+      "model": "指夹血氧仪 X2",
+      "calibration_due": "2026-10-15T00:00:00+08:00"
+    }
+  ],
+  "consumables": [
+    {
+      "code": "GLOVE-STERILE",
+      "name": "无菌手套",
+      "lot": "L2026-08B",
+      "unit": "box",
+      "quantity": 20
+    },
+    {
+      "code": "SWAB",
+      "name": "采样拭子",
+      "lot": "L2026-09A",
+      "unit": "piece",
+      "quantity": 200
+    }
+  ]
 }

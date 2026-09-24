@@ -1,0 +1,11 @@
+{
+  "schema_version": 99,
+  "kind": "handoff",
+  "record_id": "future-x-77",
+  "domain": "mission_kit",
+  "occurred_at": "2026-09-23T18:00:00+08:00",
+  "revision": 1,
+  "source": "未知升级版本的站点回执",
+  "calibration_semantics": "floating-window-30d",
+  "consumable_unit": "frobnicate"
+}
